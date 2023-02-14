@@ -1,0 +1,29 @@
+:root {
+  --blue-color: #2D28FF;
+  --white-color: #fff;
+  --gray-background-color: #C7C7C7;
+  --black-color: #000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+main {
+  height: 88.8vh;
+  background-color: var(--white-color);
+}
+
+header {
+  min-height: 70px;
+  width: 100%;
+}

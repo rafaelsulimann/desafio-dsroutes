@@ -1,0 +1,8 @@
+.about {
+    @media(max-width: 960px){
+        padding: 20px;
+    }
+    @media(min-width: 960px){
+        padding: 20px 0px;
+    }
+}

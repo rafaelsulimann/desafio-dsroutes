@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    .header-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header-nav-routes{
+            .header-nav-routes-link {
+                text-decoration: none;
+                margin-right: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.36px;
+                color: var(--white-color);
+            }
+            .active {
+                font-weight: 700;
+            }
+        }
+        .header-nav-home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .header-nav-home-link{
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
